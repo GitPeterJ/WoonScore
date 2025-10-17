@@ -1,0 +1,14 @@
+[project]
+name = "woonscore"
+version = "0.1.0"
+description = "A geospatial livability scoring system for the Netherlands using H3 hexagons"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "h3>=4.0.0",
+    "geopandas>=1.0.0",
+    "osmnx>=2.0.0",
+    "pyrosm>=0.6.0",
+    "shapely>=2.0.0",
+    "jupyter>=1.0.0",
+]
